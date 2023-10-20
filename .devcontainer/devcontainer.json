@@ -9,7 +9,7 @@
 			"version": "3.11"
 		}
 	},
-	"postStartCommand": "pip install -r requirements.txt"
+	"postStartCommand": "pip install -r requirements.txt; cp .env_sample .env"
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 
