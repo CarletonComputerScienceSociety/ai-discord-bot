@@ -8,6 +8,7 @@ class ExampleCog(commands.Cog):
 
     @commands.command()
     async def hello(self, ctx):
+        
         await ctx.send("Hello!")
 
 
