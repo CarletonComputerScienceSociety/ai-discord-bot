@@ -13,7 +13,7 @@ the racers after applying the position changes.
 toes
 
 ```python
-racers = ["Mario", "Luigi", "Peach", "Yoshi", "Toad"]
+racers = ["John", "Forest", "Matthew", "Victor", "Jacc"]
 position_changes = [2, 1, -1, 0, -2]
 ```
 
