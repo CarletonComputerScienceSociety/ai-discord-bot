@@ -10,7 +10,7 @@ Given a list of integers, you will need to find sum that can be created for a gi
     for(i in range(0,array.length)){
         for(j in range(0,array.length)){
             if((array[i]+array[j])<minSum){
-                minSum = (array[i]+array[j])
+                minSums = (array[i]+array[j])
             }
         }
 
