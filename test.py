@@ -71,6 +71,10 @@ def run(user_input, history):
 
     response = requests.post(URI, json=request)
 
+    print("req")
+
+    print(response)
+
     if response.status_code == 200:
         result = response.json()['results'][0]['history']
         print(json.dumps(result, indent=4))
@@ -80,6 +84,7 @@ def run(user_input, history):
 
 if __name__ == '__main__':
     user_input = "Please give me a step-by-step guide on how to plant a tree in my backyard."
+    print("test")
 
     # Basic example
     history = {'internal': [], 'visible': []}
