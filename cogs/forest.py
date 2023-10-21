@@ -35,10 +35,9 @@ on the list of facts from the question. Do not mention the list of facts.
 Give your answer in bullet point format. Also compare student's answer and your
 answer. 
 
-The answer should include references to the student's answer. To explain what is
-missing from include a small Python code snippit in markdown to
-describe the problem. Also, don't use any complex terms, even if the facts state
-them. Instead, be more clear and explain them a bit more.
+Your answer should include references to the student's answer. To explain your answer, include a small Python code snippit in
+markdown that provides an example. Also, don't use any complex terms, even if the facts state
+them. Instead, be more clear and explain them a in more simple details.
 
 Code snippits should look similar to this:
 
