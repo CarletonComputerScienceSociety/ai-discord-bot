@@ -1,0 +1,34 @@
+#Tracking Income
+
+## Question
+
+Welcome to **Tracking Income**! Here is the problem statement:
+
+You are given a list of revenue and expenses incurred by your company. Revenue is money coming in, Expensises is money going out. Your job is to write a code to calculate how much money the company has at the end of the day.
+
+##Input
+
+```python
+Money = [200, -12, 5, -6, 18, -25, -30, 20]
+```
+The first element in `Money` indicates the amount of money the company has at the start of the day. The rest of the elements in the list indicate the amount of money being earned or spent throughout the day. The company should spend 12 dollars, earn 5, spend 6, earn 18, spend 25, spend 30, then earn 20 before the end of the day.
+
+Therefor your function should return
+```python
+170
+```
+Here are some criteria for marking someone's code:
+
+- Correctness: Does the code produce correct results for all test cases?
+- Readability: Is the code easy to read and understand?
+- Efficiency: Does the code run efficiently?
+- Style: Does the code follow good coding style and conventions?
+
+Here is a sample solution in Python:
+
+```python
+def Income(Money):
+    return sum(Money for Money in Money)
+
+
+```
