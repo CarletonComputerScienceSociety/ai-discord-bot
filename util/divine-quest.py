@@ -7,12 +7,12 @@ def pick_a_card(list_cards, card_number):
         if list_cards[mid] > card_number:
             last_pos = mid
             new_cards = list_cards[first_pos,last_pos+1]
-            if mid == card_number:
+            if list_cards[mid] == card_number:
                 return mid
           
-        else:
+        elif  list_cards[mid] < card_number:
             first_pos = mid
             list_cards = list_cards[first_pos,last_pos+1]
-            if mid == card_number:
+            if list_cards[mid] == card_number:
                 return mid
            
