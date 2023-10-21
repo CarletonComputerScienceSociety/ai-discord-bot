@@ -12,7 +12,7 @@ class ForestCog(commands.Cog):
         # Get the message from the user
         message = ' '.join(args)
 
-        question = "What is a Python list?"
+        question = "What is rubber ducky debugging?"
         facts = """
 - 
 Mutable: Python lists are mutable, which means you can change their content without changing their identity. You can modify a list by adding, removing, or changing elements.
