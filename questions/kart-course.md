@@ -18,7 +18,7 @@ position_changes = [2, 1, -1, 0, -2]
 ```
 
 The first element in `position_changes` indicates that the racer in the second
-position (Luigi) advances two places. The second element indicates that the
+position (Mario) advances two places. The second element indicates that the
 racer in the third position (Peach) advances one place. The third element
 indicates that the racer in the fourth position (Yoshi) moves down one place.
 The fourth element indicates that the racer in the fifth position (Toad) stays
