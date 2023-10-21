@@ -10,7 +10,7 @@ the racers after applying the position changes.
 
 ## Input
 
-Here is an example input:
+toes
 
 ```python
 racers = ["Mario", "Luigi", "Peach", "Yoshi", "Toad"]
