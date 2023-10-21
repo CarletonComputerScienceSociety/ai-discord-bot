@@ -3,9 +3,10 @@ import html
 import json
 
 # For local streaming, the websockets are hosted without ssl - http://
-HOST = "codeapi.forest-anderson.ca"
-# HOST = "generalapi.forest-anderson.ca"
+#HOST = "codeapi.forest-anderson.ca"
+HOST = "generalapi.forest-anderson.ca"
 URI = f"https://{HOST}/api/v1/generate"
+
 
 
 def run(prompt):
@@ -57,7 +58,8 @@ def run(prompt):
         result = response.json()['results'][0]['text']
         print(prompt + result)
 
+    return result;
 
-if __name__ == '__main__':
-    prompt = "In order to make homemade bread, follow these steps:\n1)"
-    run(prompt)
+    if __name__ == '__main__':
+        prompt = "In order to make homemade bread, follow these steps:\n1)"
+        run(prompt)
