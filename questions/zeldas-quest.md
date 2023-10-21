@@ -10,7 +10,8 @@ you the power to defeat Ganon and restore peace to the land. You have already
 collected two pieces of the Triforce, but you need to find the third piece.
 
 You have received a clue that says: "The third piece of the Triforce is hidden
-in a secret location. To find it, you must solve a puzzle. The puzzle involves a
+in a secret location. To find the third piece, you must defeat the final boss. To
+defeat the final boss, you must complete a puzzle. The puzzle involves a
 list of numbers that are related to the Triforce."
 
 You have been given a list of integers. Your task is to write a function that
