@@ -3,15 +3,15 @@ import html
 import json
 
 # For local streaming, the websockets are hosted without ssl - http://
-HOST = "codeapi.forest-anderson.ca"
-# HOST = "generalapi.forest-anderson.ca"
+# HOST = "codeapi.forest-anderson.ca"
+HOST = "generalapi.forest-anderson.ca"
 URI = f"https://{HOST}/api/v1/generate"
 
 
 def run(prompt):
     request = {
         'prompt': prompt,
-        'max_new_tokens': 250,
+        'max_new_tokens': 500,
         'auto_max_new_tokens': False,
         'max_tokens_second': 0,
 
@@ -56,6 +56,8 @@ def run(prompt):
     if response.status_code == 200:
         result = response.json()['results'][0]['text']
         print(prompt + result)
+
+    return result
 
 
 if __name__ == '__main__':
