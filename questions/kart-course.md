@@ -4,9 +4,9 @@
 
 Welcome to **Kart Kourse**! Here is the problem statement:
 
-You are given a list of racers' names in race position order and a list of
+You are given a list of racers' names in the position they start the race in and a list of
 position changes. Your task is to write a function that returns the new order of
-racers after applying the position changes.
+the racers after applying the position changes.
 
 ## Input
 
