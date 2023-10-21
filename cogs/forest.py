@@ -12,7 +12,7 @@ class ForestCog(commands.Cog):
         # Get the message from the user
         message = ' '.join(args)
 
-        question = "What is rubber ducky debugging?"
+        question = "What is a Python list?"
         facts = """
 - 
 Mutable: Python lists are mutable, which means you can change their content without changing their identity. You can modify a list by adding, removing, or changing elements.
@@ -30,16 +30,16 @@ a list of facts. You'll then be given an answer to the question from the
 student.
 
 You should respond to the student with feedback on their answer, based
-on the list of facts from the question. Do not mention the list of facts.
+on the list of facts from the question and with a small Python code snippet. Do not mention the list of facts.
 
-Give your answer in bullet point format. Also compare student's answer and your
+Give your answer in bullet point format, followed by code. Also compare student's answer and your
 answer. 
 
 Your answer should include references to the student's answer. To explain your answer, include a small Python code snippit in
 markdown that provides an example. Also, don't use any complex terms, even if the facts state
 them. Instead, be more clear and explain them a in more simple details.
 
-Code snippits should look similar to this:
+Your code snippits should look similar to this:
 
 ```python
 # Here, we can see a list of values
